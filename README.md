@@ -15,7 +15,7 @@ var pubKey = zencashjs.address.privKeyToPubKey(priv, true) // generate compresse
 // 038a789e0910b6aa314f63d2cc666bd44fa4b71d7397cb5466902dc594c1a0a0d2
 
 var zAddr = zencashjs.address.pubKeyToAddr(pubKey)
-// znnjppzJG7ajT7f6Vp1AD6SjgcXBVPA2E6c
+// t1fXWqu5nSL1S7Bsru7jqKwp4hgTtnQTMWG
 
 // It is imperative that the block used for bip115BlockHeight and bip115BlockHash has a sufficient number of
 // confirmations (recommded values: 150 to 600 blocks older than current BLOCKHEIGHT). If the block used for 
@@ -38,7 +38,7 @@ var txobj = zencashjs.transaction.createRawTx(
       txid: '196173ec34d22a52cc689a21d01dd33b633671cbe1141e7e66240c7f3b4ccf7b', vout: 0,
       scriptPubKey: '76a914da46f44467949ac9321b16402c32bbeede5e3e5f88ac20ebd78933082d25d56a47d471ee5d57793454cf3d2787f77c21f9964b02000000034f2902b4'
   }],
-  [{address: 'znkz4JE6Y4m8xWoo4ryTnpxwBT5F7vFDgNf', satoshis: 100000}],
+  [{address: 't1dmkK8t4PWQwWLaRx63R4U1ZYEXXJn9XBS', satoshis: 100000}],
   bip115BlockHeight,
   bip115BlockHash
 )
@@ -49,7 +49,7 @@ var txobj = zencashjs.transaction.createRawTx(
 //       txid: '196173ec34d22a52cc689a21d01dd33b633671cbe1141e7e66240c7f3b4ccf7b', vout: 0,
 //       scriptPubKey: '76a914da46f44467949ac9321b16402c32bbeede5e3e5f88ac20ebd78933082d25d56a47d471ee5d57793454cf3d2787f77c21f9964b02000000034f2902b4'
 //   }],
-//   [{address: 'znkz4JE6Y4m8xWoo4ryTnpxwBT5F7vFDgNf', satoshis: 99000},
+//   [{address: 't1dmkK8t4PWQwWLaRx63R4U1ZYEXXJn9XBS', satoshis: 99000},
 //    {address: undefined, data: 'hello world', satoshis: 900}],
 //   bip115BlockHeight,
 //   bip115BlockHash
@@ -90,7 +90,7 @@ var redeemScript = zencashjs.address.mkMultiSigRedeemScript(pubKeys, 2, 3)
 // 522103519842d08ea56a635bfa8dd617b8e33f0426530d8e201107dd9a6af9493bd4872102d3ac8c0cb7b99a26cd66269a312afe4e0a621579dfe8b33e29c597a32a6165442102696187262f522cf1fa2c30c5cd6853c4a6c51ad5ba418abb4e3898dbc5a93d2e53ae
 
 var multiSigAddress = zencashjs.address.multiSigRSToAddress(redeemScript)
-// zsmSCni8GXoCdTGqUfn26QJVGh6rpaFs17T
+// t3RX4vkXVB6mbuLW9ZXwAkoPMkE5gJPARgE
 
 // It is imperative that the block used for bip115BlockHeight and bip115BlockHash has a sufficient number of
 // confirmations (recommded values: 150 to 600 blocks older than current BLOCKHEIGHT). If the block used for
