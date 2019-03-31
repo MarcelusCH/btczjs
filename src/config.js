@@ -1,10 +1,10 @@
 /*
-config.js - Configuration for ZENCash Coin
+config.js - Configuration for BitcoinZ Coin
 */
 
 module.exports = {
   mainnet: {
-    messagePrefix: '\x18BitcoinZ Signed Message:\n',
+    messagePrefix: 'BitcoinZ Signed Message',
     bip32: {
         public: '0488b21e',
         private: '05358394'
@@ -16,7 +16,7 @@ module.exports = {
     wif: '80'
   },
   testnet: {
-    messagePrefix: '\x18BitcoinZ Signed Message:\n',
+    messagePrefix: 'BitcoinZ Signed Message',
     bip32: {
       public: '043587cf',
       private: '04358394'
