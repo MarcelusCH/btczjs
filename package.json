@@ -1,10 +1,10 @@
 {
-  "name": "zencashjs",
-  "version": "v1.2.0",
-  "description": "Dead easy to use Zencash JavaScript based library",
+  "name": "btczjs",
+  "version": "v2.0.0",
+  "description": "Dead easy to use BitcoinZ JavaScript based library",
   "main": "./lib/index.js",
-  "repository": "https://github.com/ZencashOfficial/zencashjs",
-  "author": "Kendrick Tan <kendricktan0814@gmail.com>",
+  "repository": "https://github.com/btcz/btczjs",
+  "author": "BitcoinZ Community <bitcoinzcommunity@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "babel-cli": "6.24.1",
